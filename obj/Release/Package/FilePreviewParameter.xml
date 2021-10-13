@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site\FixtureLabelByPart" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^U:\\Visual\ Studio\\Projects\\FixtureLabelReprint_ByPart_WebApp\\FixtureLabelReprint_ByPart_WebApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^U:\\Visual\ Studio\\Projects\\FixtureLabelReprint_ByPart_WebApp\\FixtureLabelReprint_ByPart_WebApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

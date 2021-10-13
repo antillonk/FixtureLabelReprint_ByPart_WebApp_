@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FixtureLabelReprint_ByPart_WebApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnectionLive" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=USAZ1DTB002P;Initial Catalog=EpicorERP;Persist Security Info=True;User ID='ErpAdmin';Password='@cggjK0818'</Value>
+    </Setting>
+    <Setting Name="DBConnectionTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=USAZ1DTB002P;Initial Catalog=EpicorERPTest;Persist Security Info=True;User ID='ErpAdmin';Password='@cggjK0818'</Value>
+    </Setting>
+    <Setting Name="DBConnectionPilot" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=USAZ1DTB002P;Initial Catalog=EpicorERPPilot;Persist Security Info=True;User ID='ErpAdmin';Password='@cggjK0818'</Value>
+    </Setting>
+    <Setting Name="TestServerID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EpicorERPTest</Value>
+    </Setting>
+    <Setting Name="PilotServerID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EpicorERPPilot</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
