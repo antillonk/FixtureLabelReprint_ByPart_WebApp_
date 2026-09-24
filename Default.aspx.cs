@@ -2,17 +2,17 @@
 /* This project prints Fixture Labels for a specified Part. This is a .NET conversion of the original E9 Progress program. */
 /* Modifications                                                                                                           */
 /* Date        By      Description                                                                                         */
-/* 04/12/2019 jmyers   Changed code to function in the same manner as Reprint By Job, Print Fixture Label projects         */
-/* 04/23/2019 jmyers   Added code to find Pick Codes for processing alternate messages, adjusted Watts/Hertz/IP Class      */
+/* 04/12/2019 kantillon   Changed code to function in the same manner as Reprint By Job, Print Fixture Label projects         */
+/* 04/23/2019 kantillon   Added code to find Pick Codes for processing alternate messages, adjusted Watts/Hertz/IP Class      */
 /*                     field positioning on large labels                                                                   */
-/* 06/12/2019 jmyers   Commented out code that includes the phrase "in USA" per IT Request# 19216                          */
-/* 10/09/2019 jmyers   Changed code to print only number of lamp codes indicated in UD100.Number02 field                   */
-/* 10/21/2019 jmyers   Changed code to eliminate substring retrieval if the string is not as long as expected              */
-/* 01/23/2020 jmyers   Changed Watts and IP Class positioning on Large labels to avoid overlap with Hertz label and value, */
+/* 06/12/2019 kantillon   Commented out code that includes the phrase "in USA" per IT Request# 19216                          */
+/* 10/09/2019 kantillon   Changed code to print only number of lamp codes indicated in UD100.Number02 field                   */
+/* 10/21/2019 kantillon   Changed code to eliminate substring retrieval if the string is not as long as expected              */
+/* 01/23/2020 kantillon   Changed Watts and IP Class positioning on Large labels to avoid overlap with Hertz label and value, */
 /*                     per IT request# 20294                                                                               */
-/* 10/02/2020 jmyers   Changed code in GetAddressInfo method to use the AddressCode variable value if it's not blank to    */
+/* 10/02/2020 kantillon   Changed code in GetAddressInfo method to use the AddressCode variable value if it's not blank to    */
 /*                     find AddrMst type label data entries instead of always using "Kenall"                               */
-/* 01/07/2021 jmyers   Changed code in GetAddressInfo method to find and flag a part as an Indigo Clean part by data in the*/
+/* 01/07/2021 kantillon   Changed code in GetAddressInfo method to find and flag a part as an Indigo Clean part by data in the*/
 /*                     Series parent or child entries, print Indigo Clean labels in a different format from other labels   */
 using System;
 using System.Collections.Generic;
